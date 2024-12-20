@@ -1,0 +1,5 @@
+<resources>
+    <color name="primary">#4CAF50</color> <!-- Green color for buttons -->
+    <color name="light_blue">#E3F2FD</color>
+    <color name="light_green">#C8E6C9</color>
+</resources>

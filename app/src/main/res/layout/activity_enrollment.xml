@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <!-- ListView untuk menampilkan mata kuliah yang tersedia -->
+    <ListView
+        android:id="@+id/subject_list_view"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:divider="@android:color/darker_gray"
+        android:dividerHeight="0.5dp"
+        android:choiceMode="multipleChoice"/>
+
+    <!-- TextView untuk menampilkan total kredit -->
+    <TextView
+        android:id="@+id/total_credits_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Total Credits: 0"
+        android:textSize="16sp"
+        android:layout_below="@id/subject_list_view"
+        android:layout_marginTop="20dp"
+        android:layout_alignParentStart="true"/>
+
+    <!-- Button untuk submit pendaftaran -->
+    <Button
+        android:id="@+id/btnSubmitEnrollment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit Enrollment"
+        android:layout_below="@id/total_credits_text_view"
+        android:layout_marginTop="20dp"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>
